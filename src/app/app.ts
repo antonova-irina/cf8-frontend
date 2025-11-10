@@ -28,6 +28,8 @@ import { Navbar } from "./components/navbar/navbar";
 export class App {
   name = "Markos";
 
+    doNotShowRest:boolean = true;
+
    // Step 3 input component
   person1:Person = {
     firstname: 'User1 name',
