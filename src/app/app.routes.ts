@@ -6,6 +6,7 @@ import { Step5EventBind } from './components/step5-event-bind/step5-event-bind';
 import { Welcome } from './components/welcome/welcome';
 import { Step6SimpleDatatable } from './components/step6-simple-datatable/step6-simple-datatable';
 import { Step7ComponentOutput } from './components/step7-component-output/step7-component-output';
+import { Step8TemplateDrivenForms } from './components/step8-template-driven-forms/step8-template-driven-forms';
 
 export const routes: Routes = [
   {path:'person-table-example', component: Step2PersonTable},
@@ -14,7 +15,7 @@ export const routes: Routes = [
   {path:"event-bind-example", component:Step5EventBind},
   {path:"simple-datatable-example", component:Step6SimpleDatatable},
   {path: 'component-output-example', component: Step7ComponentOutput},
-  // {path: 'template-driven-form-example', component:Step8TemplateDrivenForms},
+  {path: 'template-driven-form-example', component:Step8TemplateDrivenForms},
   // {path: 'reactive-form-example', component: Step9ReativeForms},
   // {path: 'login-example', component: Step10UserLogin},
   {path:'welcome', component:Welcome},
